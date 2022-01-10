@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Roboto+Mono:ital,wght@0,700;1,400&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #menu-h ul{
+      list-style-type: none;
+      padding: 0;
+      background-color: rgb(35, 46, 56);
+      
+  }
+
+  #menu-h ul li{
+      display: inline-block; 
+  }
+
+  #menu-h ul li a{
+      color: #fff;
+      padding: 10px;
+      display: inline-block;
+      text-decoration: none;
+      transition: background.6s;
+      
+}
+
+#menu-h ul li a:hover{
+    background-color: rgb(61, 92, 231);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(68, 68, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+  }
+  
+  .wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  main{
+    display: block;
+    background-color: #FFF;
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  section.module p{
+    margin-bottom: 40px;
+  }
+  
+  section.module:last-child{
+    margin-bottom: 0;
+  }
+  
+  section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  
+  section.module.content{
+   padding: 40px 0;
+   background: #cbe7ec; 
+  }
+  section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+  }
+
+section.module.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+section.zero{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 30vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 70% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-1{
+    background-image: url(http://4.bp.blogspot.com/-SrBIiaA-3KI/UKQsvzgeRsI/AAAAAAAAO14/HvZjlzCBrq4/s1600/Watchmen.jpg);
+  }
+
+ section.module.parallax h1{
+     color: yellow;
+     text-align: center;
+     font-size: 78px;
+     z-index: 50;
+     text-transform: uppercase;
+ }
+
+ section.module.parallax-2{
+    background-image: url(https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2018/11/legiao_7wvekxBq6yLVFhm3d8n1UbPStHG5Z2A9_suYEMO4pj.jpg.jpeg);
+ }
+section.module.parallax-3{
+    background-image: url(https://i.ytimg.com/vi/8SUxm6W7tHU/hqdefault.jpg);
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family:Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    color: #000;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: #fff;
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px 0;
+    background-color: #cbe7ec;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  }
+section.module.parallax-1{
+    background-image: url(https://pm1.narvii.com/6311/3d1525aaa361237475d427cd61c1de67a890e94a_hq.jpg);
+}
+
+section.module.parallax h1{
+    color: yellow;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+section.module.parallax-2{
+    background-image: url(https://revistabula.com/wp/wp-content/uploads/2019/11/watchmen.jpg);
+}
